@@ -5,3 +5,4 @@ catkin_make後,DUALSENCEを有線で接続しroslaunch joykame turtle.launchと�
 <操作方法>  
 左スティック：移動  
 L2：左回転  
+Xボタン:線消去  
