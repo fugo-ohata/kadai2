@@ -33,9 +33,9 @@ int main(int argc, char** argv)
    {
 	 if(clear_line == 1){
 																							    				                clearClient.call(srv);																									}
-																								    				          cmd_pub.publish(cmd_vel);
-																													  ros::spinOnce();
-																										                          loop_rate.sleep();
+		   cmd_pub.publish(cmd_vel);
+		   ros::spinOnce();
+	           loop_rate.sleep();
 																													     }
    return 0;
 }
