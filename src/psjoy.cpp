@@ -32,10 +32,11 @@ int main(int argc, char** argv)
    while (ros::ok())
    {
 	 if(clear_line == 1){
-		 clearClient.call(srv);																									}
+		 clearClient.call(srv);
+	 }
 		   cmd_pub.publish(cmd_vel);
 		   ros::spinOnce();
 	           loop_rate.sleep();
-																													     }
+   }
    return 0;
 }
