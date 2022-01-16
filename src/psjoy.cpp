@@ -29,14 +29,13 @@ int main(int argc, char** argv)
    ros::Subscriber joy_sub = nh.subscribe("joy", 10, joy_callback);
 
    ros::Rate loop_rate(10);
-   while (ros::ok())
-   {
-	 if(clear_line == 1){
+   while (ros::ok()){
+              if(clear_line == 1){
 		 clearClient.call(srv);
 	 }
-		   cmd_pub.publish(cmd_vel);
-		   ros::spinOnce();
-	           loop_rate.sleep();
+               cmd_pub.publish(cmd_vel);
+	       ros::spinOnce();
+	       loop_rate.sleep();
    }
    return 0;
 }
