@@ -9,5 +9,5 @@ catkin_make後,DUALSENCEを有線で接続しroslaunch joykame turtle.launchと�
 L2：左回転  
 Xボタン:線消去  
 # 引用
-https://github.com/project-srs/ros_lecture/blob/master/basic_lecture/src/basic_twist_publisher.cpp
+https://github.com/project-srs/ros_lecture/blob/master/basic_lecture/src/basic_twist_publisher.cpp  
 https://github.com/project-srs/ros_lecture/blob/master/LICENSE  
